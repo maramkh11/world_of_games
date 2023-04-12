@@ -25,7 +25,6 @@ class MemoryGame:
 
     def display_content(self, content):
         print(f'The generated numbers are: \n{content}')
-        input("enter name")
         time.sleep(0.7)
         Utils.screen_cleaner()
 
