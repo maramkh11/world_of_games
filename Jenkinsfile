@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE = "maramkh11/scores:latest"
+        DOCKER_IMAGE = "scores-python-flask:1.1.1.release"
     }
     stages {
         stage('Checkout') {
